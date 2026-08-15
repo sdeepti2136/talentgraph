@@ -1,0 +1,8 @@
+{
+  "name": "talentgraph-deploy",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm install --prefix talentgraph/client && npm run build --prefix talentgraph/client && npm install --prefix talentgraph/server",
+    "start": "npm start --prefix talentgraph/server"
+  }
+}
