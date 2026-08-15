@@ -1,0 +1,18 @@
+{
+  "name": "talentgraph-server",
+  "version": "1.0.0",
+  "description": "TalentGraph API — a skill-based candidate/job matching service backed by CognoDB",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "dependencies": {
+    "neo4j-driver": "^5.24.0",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
